@@ -1,0 +1,24 @@
+.container {
+  display: flex; 
+  height: 100vh; 
+}
+
+.content {
+  flex: 1; 
+  height: calc(100% - 60px);
+}
+
+.top-bar {
+  /* position: fixed; */
+  top: 0; /* Align to the top of the viewport */
+  left: 77.63px; /* Align to the left of the viewport */
+  width: calc(99vw - 77.63px);/* Full width */
+  height: 60px; /* 60px height */
+  background-color: #252B33; /* Just an example color */
+}
+
+.page {
+  padding-left: 77.63px;
+}
+
+

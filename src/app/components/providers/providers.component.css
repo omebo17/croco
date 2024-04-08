@@ -1,0 +1,37 @@
+.navbar {
+    background-color:  #272D36;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    padding-left: 17.33px;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.item {
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 10px; 
+}
+
+.provider{
+    color: #D9E3EF;
+    font: normal normal normal 14px "Neue Croco Sans"; 
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+

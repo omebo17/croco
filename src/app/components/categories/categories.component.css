@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #1D242C;
+  overflow: hidden;
+  height: 53px;
+  display: flex;
+  padding-left: 17.33px;
+  align-items: center; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  width: 135px;
+  display: flex;
+}
+
+.logo{
+  margin-right: 10.4px;
+}
+
+.category{
+  color: #FFFFFF;
+  font: normal normal normal 14px "Neue Croco Sans";  /* it looks like costum font so i cant use it in simple way, so it wont work*/
+  padding-top: 12px; 
+}
+
+.size{
+  color: #FFFFFF;
+  font: normal normal normal 14px "Neue Croco Sans";
+  padding-bottom: 26px;
+}
+
+.item:hover .size {
+  color: #15AF44; /* Change color to green on hover */
+  transition: color 0.5s;
+}
+
+.item:hover{
+  cursor: pointer;
+}
+
+
+
+.item:not(:hover) .size {
+  color: #FFFFFF; /* Change color back to white when not hovering */
+  transition: color 0.5s;
+}

@@ -1,0 +1,11 @@
+<div>
+    <nav class="navbar">
+        <ul class="nav-list">
+          <li *ngFor="let item of items" (click)="currentChange.emit(item)" class="item">
+            <img [src]="item.img" alt="" class="logo">
+            <h2 class="category"> {{ item.name }} </h2>
+            <h2 class="size"> {{ item.size }} </h2>
+          </li>
+        </ul>
+      </nav>
+</div>

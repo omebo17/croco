@@ -1,0 +1,35 @@
+.card {
+    width: 216.38px;
+    height: 178px;
+    background-color: #252B33;
+    margin: 2.5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slot {
+    height: 140px;
+    width: 216.38px;
+    transition: transform 0.3s ease; 
+}
+
+.name {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top:80px;
+    margin-left: 8px;
+    position: absolute;
+    bottom: 2px; 
+    left: 8px; 
+    z-index: 1; 
+    transition: opacity 0.3s ease; 
+}
+
+.card:hover .slot {
+    transform: scale(1.1); 
+}
+
+
+.card:hover {
+    cursor: pointer;
+}

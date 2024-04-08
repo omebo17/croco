@@ -1,0 +1,13 @@
+<div class="page-wrapper">
+    <div class="wrapper">
+        <div class="banner" >
+        </div>
+        <app-categories [items]="categoryMenuItems" [current]="currentCategoryItem" (currentChange)="onCurrentCategoryChange($event)"></app-categories>
+        <app-providers [items]="providerItems" [current]="currentProviderItem" (currentChange)="onCurrentProviderChange($event)"></app-providers>
+        <div class="slots-container">
+            <div *ngFor="let slot of slots" class="slots-wrapper">
+              <app-slot [slotImg]="slot.image" [slotName]="slot.name"></app-slot>
+            </div>
+        </div>
+    </div>
+</div>

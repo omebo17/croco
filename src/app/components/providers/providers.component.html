@@ -1,0 +1,9 @@
+<div>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li *ngFor="let item of items" (click)="currentChange.emit(item)" class="item">
+                <h2 class="provider"> {{ item.name | uppercase }} </h2>
+            </li>
+        </ul>
+    </nav>
+</div>
